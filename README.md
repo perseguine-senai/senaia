@@ -33,7 +33,7 @@ Requisitos não-funcionais principais:
 
 ## Persona
 
-Beatriz, 16 a 23 anos, estudante do SENAI São Carlos.
+Beatriz, 17 anos, estudante do SENAI São Carlos.
 
 "Eu não sei onde encontrar as informações que preciso sobre o SENAI, tudo tá espalhado e eu perco tempo procurando."
 
