@@ -68,5 +68,6 @@ Tecnologias de front-end: HTML5 semântico e CSS3 (Flexbox e Grid).
 
 - Ariani Almeida
 - Bryan Perseguine
+- Paloma Oliveira
 
 Execução: 2026 / 2º Semestre - Início: 30/07/2026
