@@ -12,6 +12,12 @@ As informações da Unidade 601 estão fragmentadas em múltiplos canais: o site
 
 Essa dispersão gera perda de prazos de processo seletivo, desconhecimento de oportunidades (Mural de Estágio/Emprego), dificuldade para localizar serviços básicos (2ª via de boleto, horários) e confusão entre as diferentes modalidades de curso oferecidas. Resolver esse problema reduz o retrabalho do atendimento presencial e da secretaria da escola e substitui a espera por um canal humano por uma resposta imediata, disponível a qualquer hora.
 
+## Estado da arte
+
+Chatbots educacionais já são uma tendência consolidada, usados para responder dúvidas 24 horas por dia e reduzir a sobrecarga de secretarias. Dentro do próprio Sistema SENAI já existem iniciativas nesse sentido: o Cadu (SENAI-RN), integrado ao Google Assistente; o Cadu do app Estante Virtual Meu SENAI, focado em quizzes e apoio ao estudo; e o TECH (SESI/SENAI-ES), via WhatsApp, para segunda via de boleto. Em outras instituições, exemplos incluem o Téo (Estácio) e o Paul (Saint Paul), além de trabalhos acadêmicos recentes como o Sabiá e o MICA, chatbots de IA generativa criados justamente para resolver a dispersão de informações institucionais.
+
+A maioria dessas soluções é genérica (matrícula, boletos, notas) ou não é personalizada por curso. O SenaIA se diferencia por ser hiperlocal (exclusivo da Unidade 601), ter uma persona de atendimento própria (a Carla) e personalizar as respostas pela trilha de curso de cada aluno.
+
 ## Descrição
 
 Sistema web responsivo (Mobile e Desktop) com login via Google, no qual o aluno informa seu curso ou área de atuação dentro do SENAI. Essa informação é usada como contexto persistente pela assistente virtual Carla, integrada a uma API de IA, para personalizar as respostas em cada conversa. A Carla tem personalidade gentil, simpática e acolhedora, priorizando bondade e conexão entre alunos, professores e funcionários da Unidade 601.
@@ -29,7 +35,7 @@ Requisitos funcionais principais:
 Requisitos não-funcionais principais:
 - Interface responsiva entre Mobile e Desktop
 - Performance com resposta em tempo real
-- Resiliência da API de IA (fallback em caso de indisponibilidade ou limite de uso).
+- Resiliência da API de IA (fallback em caso de indisponibilidade ou limite de uso)
 
 ## Persona
 
@@ -45,22 +51,20 @@ Objetivos com o sistema: tirar dúvidas rapidamente, não perder prazos ou oport
 
 ## Wireframe
 
-Fluxo de telas simplificado (4 telas), com a tela de Chat como núcleo da experiência:
+Fluxo de telas definido (4 telas), com a tela de Chat como núcleo da experiência:
 
-1. Login - autenticação via Google (OAuth), implementada de forma real
+1. Login - autenticação via Google (OAuth)
 2. Boas-vindas / Setup - apresentação da Carla e captura do curso/área do aluno (primeiro acesso)
 3. Chat - tela principal de conversa com a Carla, com sugestões rápidas e menu lateral com acesso às últimas conversas e ao perfil
 4. Perfil / Configurações - nome, foto, curso/área e preferências básicas
 
-Sem tela de abertura (splash) separada nem tela dedicada de histórico.
-
-Wireframes visuais: em desenvolvimento.
+Wireframes de alta fidelidade já desenhados para Desktop e Mobile. A primeira versão do produto, no entanto, será voltada apenas para Desktop - a versão Mobile fica definida como próxima etapa de desenvolvimento.
 
 ## Design
 
-Identidade visual (logomarca, slogan e paleta final): em definição pela equipe.
-
 Paleta de cores: branco como cor principal, com o vermelho institucional do SENAI-SP (#C00D0D) como cor de destaque/apoio.
+
+Identidade visual aplicada nas telas: logotipo SenaIA, tela de login com bloco de destaque em vermelho, chat com bolhas de conversa e sugestões rápidas (Cursos, Processo Seletivo, Boletos, Localização), e perfil com dados do aluno e curso vindos do login com Google.
 
 Tecnologias de front-end: HTML5 semântico e CSS3 (Flexbox e Grid).
 
