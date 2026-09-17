@@ -53,8 +53,8 @@ Objetivos com o sistema: tirar dúvidas rapidamente, não perder prazos ou oport
 
 Fluxo de telas definido (4 telas), com a tela de Chat como núcleo da experiência:
 
-1. Login - autenticação via Google (OAuth)
-2. Boas-vindas / Setup - apresentação da Carla e captura do curso/área do aluno (primeiro acesso)
+1. Login - autenticação via Google (OAuth) ----- CONCLUIDA -----
+2. Boas-vindas / Setup - apresentação da Carla e captura do curso/área do aluno (primeiro acesso) ----- CONCLUIDA -----
 3. Chat - tela principal de conversa com a Carla, com sugestões rápidas e menu lateral com acesso às últimas conversas e ao perfil
 4. Perfil / Configurações - nome, foto, curso/área e preferências básicas
 
