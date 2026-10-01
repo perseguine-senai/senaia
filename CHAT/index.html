@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>SenaIA - Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <aside>
+        <button type="button" class="btn-novo-chat"><strong>+ Novo chat</strong></button>
+        
+        <nav>
+            <h3>Conversas recentes</h3>
+            <ul>
+                <li class="conversa-ativa"><a href="#">Cursos Gratuitos Senai.</a></li>
+                <li><a href="#">Ajuda com Desenvolvimento de Sistemas.</a></li>
+                <li><a href="#">Novidades no SENAI.</a></li>
+                <li><a href="#">No que posso te ajudar.</a></li>
+            </ul>
+        </nav>
+
+        <div class="perfil-usuario">
+            <button type="button">Configurações</button>
+            <p>Usuário: Beatriz</p>
+        </div>
+    </aside>
+
+    <main>
+        <header>
+            <h1>SenaIA</h1>
+        </header>
+
+        <section class="historico-mensagens" role="log" aria-label="Histórico de mensagens">
+            
+            <article class="mensagem usuario">
+                <p>Olá! Me fale os cursos gratuitos em aberto hoje no Senai por gentileza??</p>
+                <time class="tempo-mensagem" datetime="2026-10-01T13:40">13:40</time>
+            </article>
+
+            <article class="mensagem ia">
+                <p>Com certeza! Hoje existe alguns Cursos que voce pode se inscrever antes mesmo de acabar o ano.
+
+                Técnicos:
+                - Mecatronica.
+                - Desenvolvimento de Sistemas.
+
+                Cursos de 3 meses:
+                - Inteligencia Artificial.
+                    
+                Gostaria de mais alguma coisa? posso ver para você quais são las datas de inscrição!</p>
+                <time class="tempo-mensagem" datetime="2026-10-01T13:41">13:41</time>
+            </article>
+
+        </section>
+
+        <footer>
+            <form action="#" method="POST" class="caixa-texto">
+                <label for="user-message" style="display: none;">Sua mensagem:</label>
+                <textarea id="user-message" name="message" rows="1" placeholder="Escreva sua dúvida aqui..." required></textarea>
+                <button type="submit" class="botao-enviar">➔</button>
+            </form>
+            
+            <p class="aviso-ia"><small>A Carla pode cometer erros. Considere verificar informações importantes.</small></p>
+        </footer>
+    </main>
+
+</body>
+</html>

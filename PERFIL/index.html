@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="formulario">
+
+        <h2>SenaIA</h2>
+
+        <form>
+
+            <section class="perfil">
+                <p class="nome">Beatriz Silva</p>
+                <p class="email">beatriz.silva@aluno.senai.br</p>
+                <p class="status">Conta institucional ativa</p>
+            </section>
+
+            <section class="curso">
+                <label for="curso">Curso:</label>
+
+                <select id="curso" name="curso">
+                    <option value=""> Qual seu curso? </option>
+                    <option value="Administracao">Administração</option>
+                    <option value="Desenvolvimento de Sistemas"> Desenvolvimento de Sistemas </option>
+                    <option value="Mecatronica">Mecatrônica</option>
+                    <option value="Eletroeletronica">Eletroeletrônica</option>
+                    <option value="Culinaria">Culinária</option>
+                </select>
+            </section>
+
+            <section class="notificacoes">
+
+                <label>
+                    <input
+                        type="checkbox" name="notificacoes" value="ativado"
+                        >Notificações e Avisos da Carla
+                </label>
+
+                <p>
+                    Receber alertas sobre datas de exames de recuperação
+                    e cronogramas.
+                </p>
+
+            </section>
+
+            <div class="botoes">
+                <button type="submit">Cadastrar</button>
+                <button type="reset">Limpar</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
