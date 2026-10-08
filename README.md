@@ -55,8 +55,8 @@ Fluxo de telas definido (4 telas), com a tela de Chat como núcleo da experiênc
 
 1. Login - autenticação via Google (OAuth) ----- CONCLUIDA -----
 2. Boas-vindas / Setup - apresentação da Carla e captura do curso/área do aluno (primeiro acesso) ----- CONCLUIDA -----
-3. Chat - tela principal de conversa com a Carla, com sugestões rápidas e menu lateral com acesso às últimas conversas e ao perfil
-4. Perfil / Configurações - nome, foto, curso/área e preferências básicas
+3. Chat - tela principal de conversa com a Carla, com sugestões rápidas e menu lateral com acesso às últimas conversas e ao perfil ----- CONCLUIDA -----
+4. Perfil / Configurações - nome, foto, curso/área e preferências básicas ----- CONCLUIDA -----
 
 Wireframes de alta fidelidade já desenhados para Desktop e Mobile. A primeira versão do produto, no entanto, será voltada apenas para Desktop - a versão Mobile fica definida como próxima etapa de desenvolvimento.
 
@@ -72,6 +72,5 @@ Tecnologias de front-end: HTML5 semântico e CSS3 (Flexbox e Grid).
 
 - Ariani Almeida
 - Bryan Perseguine
-- Paloma Oliveira
 
 Execução: 2026 / 2º Semestre - Início: 30/07/2026
