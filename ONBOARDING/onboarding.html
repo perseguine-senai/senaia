@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SenaIA - Onboarding</title>
+    <link rel="stylesheet" href="onboarding.css">
+</head>
+<body>
+
+    <header>
+        <h1>Sena<span>IA</span></h1>
+        <p>Passo 1 de 2</p>
+    </header>
+
+    <main>
+        <div class="caixa-onboarding">
+
+            <div class="mensagem">
+                <span class="avatar">C</span>
+
+                <div class="balao">
+                    <strong>Carla · SenaIA</strong>
+                    <p>
+                        Oi! Eu sou a Carla, sua assistente virtual
+                        do SENAI São Carlos. Para eu poder te dar
+                        as datas de provas corretas e os avisos
+                        do seu bloco, me diz: qual curso você faz?
+                    </p>
+                </div>
+            </div>
+
+            <form action="chat.html" method="GET">
+                <label for="curso">Escolha seu curso atual</label>
+
+                <select id="curso" name="curso" required>
+                    <option value="">Selecione seu curso</option>
+                    <option value="ds">
+                        Técnico em Desenvolvimento de Sistemas
+                    </option>
+                    <option value="mecatronica">
+                        Técnico em Mecatrônica
+                    </option>
+                    <option value="outro">Outro curso</option>
+                </select>
+
+                <p class="aviso">
+                    Personalizaremos automaticamente seu calendário
+                    de exames, secretaria virtual e horários de aula.
+                </p>
+
+                <div class="botao">
+                    <button type="submit">Começar conversa</button>
+                </div>
+            </form>
+
+        </div>
+    </main>
+
+</body>
+</html>

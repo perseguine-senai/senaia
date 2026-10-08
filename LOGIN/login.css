@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f8f9fb;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+aside {
+    width: 50%;
+    background-color: #bf2b22;
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+aside h1 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.apresentacao {
+    margin: auto 0;
+}
+
+.apresentacao h2 {
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.carla {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: #ca4038;
+    border-radius: 15px;
+    padding: 16px;
+}
+
+.carla span {
+    font-size: 30px;
+}
+
+.carla p {
+    font-size: 12px;
+    line-height: 1.4;
+    margin: 5px 0 0;
+}
+
+.rodape {
+    font-size: 11px;
+    color: #efb5b0;
+    margin-top: 40px;
+}
+
+main {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.caixa-login {
+    width: 100%;
+    max-width: 350px;
+    background-color: white;
+    border: 1px solid #eaeaea;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.caixa-login h2 {
+    font-size: 22px;
+    color: #333333;
+    margin: 0 0 12px;
+}
+
+.descricao {
+    font-size: 13px;
+    color: #888888;
+    line-height: 1.5;
+}
+
+.mensagem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff5f5;
+    border: 1px solid #ffe3e3;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 25px 0;
+    text-align: left;
+}
+
+.mensagem span {
+    font-size: 24px;
+}
+
+.mensagem p {
+    font-size: 12px;
+    color: #555555;
+    margin: 0;
+}
+
+button {
+    width: 100%;
+    background-color: white;
+    color: #333333;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f2f2f2;
+}
+
+.aviso {
+    font-size: 11px;
+    color: #999999;
+    line-height: 1.4;
+    margin-top: 15px;
+}
